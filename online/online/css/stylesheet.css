@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    background-color: #b8e994;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+#headerSection {
+    padding: 20px;
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+}
+
+#headerSection h1 {
+    font-family: 'Cursive', sans-serif;
+}
+
+/* Buttons */
+button {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#loginbtn,
+#logoutbtn,
+#votebtn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+}
+
+#logoutbtn {
+    float: right;
+    margin: 10px;
+}
+
+#votebtn:hover,
+#loginbtn:hover,
+#logoutbtn:hover {
+    background-color: #2980b9;
+}
+
+#votedbtn {
+    background-color: green;
+    color: white;
+    cursor: not-allowed;
+}
+
+/* Input Fields */
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+/* Dropbox */
+#dropbox,
+#role select {
+    padding: 10px;
+    border-radius: 5px;
+    width: 85%;
+}
+
+/* Images */
+#imagecss,
+#imagepart img {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30%;
+}
+
+/* Profile Section */
+#Profile {
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    float: left;
+    text-align: left;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#Profile img {
+    border-radius: 50%;
+}
+
+/* Voting Section */
+#VotingSection {
+    width: 65%;
+    float: right;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#VotingSection div {
+    margin-bottom: 20px;
+}
+
+#VotingSection img {
+    border-radius: 10px;
+}
+
+/* Main Section */
+#mainSection {
+    padding: 20px;
+}
+
+/* HR Styling */
+hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+/* Forms */
+form {
+    margin: 20px auto;
+    width: 60%;
+}
+
+form h2 {
+    margin-bottom: 20px;
+}
+
+#address {
+    width: 85%;
+}

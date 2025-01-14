@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+</head>
+<body>
+    <center>
+        <div id="headerSection">
+            <h1>Student Registration</h1>
+            <hr>
+        </div>
+        <form action="../api/register_student.php" method="POST" enctype="multipart/form-data">
+            <input type="text" name="name" placeholder="Enter Name" required>
+            <input type="number" name="student_id" placeholder="student_id" required><br><br>
+            <input type="password" name="password" placeholder="Enter Password" required>
+            <input type="password" name="cpassword" placeholder="Confirm Password" required><br><br>
+            <input type="text" name="class" placeholder="Enter Class" required>
+            <input type="text" name="department" placeholder="Enter Department" required><br><br>
+            <label>Upload Image:</label>
+            <input type="file" name="photo" required><br><br>
+            <select name="role" required>
+                <option value="1">Voter</option>
+                <option value="2">Candidate</option>
+            </select><br><br>
+            <button id="loginbtn" type="submit">Register</button><br><br>
+            Already registered? <a href="login_student.html">Login here</a>
+        </form>
+    </center>
+</body>
+</html>
+

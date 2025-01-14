@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Login</title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+</head>
+<body>
+    <center>
+        <div id="headerSection">
+            <h1>Student Login</h1>
+            <hr>
+        </div>
+        <form action="../api/login_student.php" method="POST">
+            <input type="text" name="student_id" id="student_id" required><br><br>
+            <input type="password" name="password" id="password" required><br><br>
+            <select name="role" required>
+                <option value="1">Voter</option>
+                <option value="2">Candidate</option>
+            </select><br><br>
+            <button id="loginbtn" type="submit">Login</button><br><br>
+            New student? <a href="register_student.html">Register here</a>
+        </form>
+    </center>
+</body>
+</html>
+
